@@ -11,11 +11,11 @@
 <body>
     <?php require_once './templates/header.php' ?>
     <div class="titreinscription"><h1>Inscrivez-vous !</h1></div>
-    <div class="inscriptions">
+    <div id="inscription">
     <form action="./validation.php" method="POST">
         <div>
         <label for="username">pseudo:</label>
-        <input type="text" id="username" name="pseudo">
+        <input type="text" id="username" name="name">
         </div>
         <div>
         <label for="pass">Mot de passe (8 caractères minimum):</label>
